@@ -15,6 +15,6 @@ og=c._G();og.gain.value=0;mb.to(mr);mr.to(mf);mf.to(og.gain);mb.Q.value=8;
 for(ix in ox){ox[ix].to(ob);}ob.to(og);og.to(c.destination);}
 w.a=w.addEventListener;function et(v){return function(ev){_=ev.keyCode;
 if(_>64 && _<91){ox[_].gain.value=v;hx[_].opacity=v;}};};w.a("keydown",et(0.5));
-w.a("keyup",et(0));},function(){});hc="</p>";d.b.style.backgroundColor='#ACE';
-ho="<p style='margin:3%;float:right;clear:both;font-size:20px;'>";
-d.b.innerHTML=ho+"Keys = Play Note"+hc+ho+"Microphone = Modulate"+hc;
+w.a("keyup",et(0));},function(){});d.b.style.fontFamily='Verdana, sans-serif';
+d.b.innerHTML="<p style='margin:9% 1%;float:right;clear:both;font-size:32px;'>"+
+"Press a Key and Sing like a robot!</p>";
